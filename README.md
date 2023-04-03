@@ -41,7 +41,7 @@ adja vissza. Dátum mező esetén írja át *DateTime* típusra *DateOnly* helye
 metódussal lehet elérni. A végpont adja vissza az
 összes adatot a munkalapon, a megszabott JSON formátumban.
 
-**5.)** Hozzon létre egy másik GET végpontot, ami a munkalap azonosítót kapja URL-ben,és adja vissza a talált rekordot. Az útvonal az 5-ös azonosító esetén így épül fel: *api/Munkalap/5*.
+**5.)** Hozzon létre egy másik GET végpontot, ami a munkalap azonosítót kapja URL-ben,és adja vissza a talált rekordot. Az útvonal az 5-ös azonosító esetén így épül fel: *api/Munkalapok/5*.
 
 **6.)** Készítsen egy másik osztályt a *DTOs* mappában
 *MunkalapKeresesDto* néven. Az osztálynak két tulajdonság értéke legyen:
